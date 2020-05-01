@@ -36,3 +36,18 @@ pub fn q3() {
     println!();
 
 }
+
+pub fn q4() {
+
+    let mut  s = String::from("Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.");
+    s.retain(|c| c != ',');
+    s.pop();
+
+    let arr = s.split_whitespace();
+    let mut lenarr = Vec::new();
+    for i in arr {
+        lenarr.push(i.len());
+    }
+    println!("{:#?}", lenarr);
+
+}
