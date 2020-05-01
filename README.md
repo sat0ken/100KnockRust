@@ -1,5 +1,5 @@
-# 100KnockRust
+# nlp100rust
 
-言語処理100本ノック2020をRustで
+言語処理100本ノック2020をRustでやってみる
 
 https://nlp100.github.io/ja/
